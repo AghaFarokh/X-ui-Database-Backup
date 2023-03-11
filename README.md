@@ -7,6 +7,15 @@ Replace your bot token and your chat id in the file
     TOKEN = '<your_bot_token>'
     CHAT_ID = '<your_chat_id>'
 
+How to run
+
+        sudo apt install python3-pip
+        pip3 install python-telegram-bot
+        
+        nohup python3 dbbackup.py > output.log &
+
+---------------------
+
 To run this script in the background, you can use a process manager like systemd or supervisor. Here's how to use systemd:
 
 Create a file called mybot.service in the /etc/systemd/system directory with the following contents:
