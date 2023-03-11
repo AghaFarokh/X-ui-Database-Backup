@@ -11,7 +11,7 @@ How to run
 
     sudo apt install python3-pip
     pip3 install python-telegram-bot
-    python -m pip install --user telebot
+    python3 -m pip install --user telebot
     
     nohup python3 dbbackup.py > output.log &
 
