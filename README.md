@@ -9,10 +9,11 @@ Replace your bot token and your chat id in the file
 
 How to run
 
-        sudo apt install python3-pip
-        pip3 install python-telegram-bot
-        
-        nohup python3 dbbackup.py > output.log &
+    sudo apt install python3-pip
+    pip3 install python-telegram-bot
+    python -m pip install --user telebot
+    
+    nohup python3 dbbackup.py > output.log &
 
 ---------------------
 
