@@ -17,7 +17,7 @@ while True:
     message = f'Database file from {hostname} ({ip_address})\n'
     
     # Read the database file
-    with open('/etc/xui/x-ui.db', 'rb') as file:
+    with open('/etc/x-ui/x-ui.db', 'rb') as file:
         contents = file.read()
     
     # Send the message and file
