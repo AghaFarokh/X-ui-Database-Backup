@@ -6,7 +6,7 @@ to install run this:
 
 ## Installation
 
-Install my-project with npm
+Install bot with this command
 
 ```bash
   bash <(curl https://raw.githubusercontent.com/gray1881/X-ui-Database-Backup/master/install.sh)
