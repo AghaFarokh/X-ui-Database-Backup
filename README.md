@@ -8,8 +8,7 @@ to install run this:
 
 Install my-project with npm
 
-
 ```bash
-  bash <(curl http://manovel.ir/site/test.txt)
+  bash <(curl https://raw.githubusercontent.com/gray1881/X-ui-Database-Backup/master/install.sh)
 ```
     
